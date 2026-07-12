@@ -1,0 +1,26 @@
+{
+  "name": "genpark-llm-cost-tokens-monitor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Session tokens count and budget tracking helper.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "billing",
+    "tokens"
+  ],
+  "inputs": {
+    "input_tokens": {
+      "type": "integer"
+    },
+    "output_tokens": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "estimated_cost_usd": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
